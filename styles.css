@@ -1,0 +1,54 @@
+/* --- Estilos Generales y Tipografía --- */
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #F7F9FA; /* Fondo General */
+    color: #222222; /* Texto Principal */
+    line-height: 1.6;
+}
+
+/* --- Clases de Utilidad y Colores --- */
+.gradient-header {
+    background-image: linear-gradient(to right, #6A11CB, #2575FC);
+}
+
+.text-accent-purple { 
+    color: #6A11CB; 
+}
+
+.bg-accent-yellow { 
+    background-color: #FFC947; 
+}
+
+.text-dark { 
+    color: #222222; 
+}
+
+/* --- Animación de Scroll --- */
+.section-hidden { 
+    opacity: 0; 
+    transform: translateY(20px); 
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out; 
+}
+
+.section-visible { 
+    opacity: 1; 
+    transform: translateY(0); 
+}
+
+/* --- Estilo para el Botón de Descarga --- */
+.download-button {
+    display: inline-block;
+    background-color: #FFC947; /* Usando el amarillo de acento */
+    color: #222222; /* Texto oscuro para contraste */
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    margin-top: 15px; /* Espacio entre el texto de copyright y el botón */
+}
+
+.download-button:hover {
+    background-color: #fdd870; /* Un tono de amarillo un poco más claro al pasar el mouse */
+    transform: translateY(-2px);
+}
